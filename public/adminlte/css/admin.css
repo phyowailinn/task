@@ -1,0 +1,55 @@
+/*Notification bar style*/
+.notification-panel{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1250;
+}
+.notification-panel .alert{
+  min-width: 30em;
+  border-radius: 0px;
+}
+.notification-panel .alert{
+  background: white !important;
+  font-size: 16px;
+}
+.notification-panel .alert-success{
+  color: green !important;
+}
+.notification-panel .alert-danger{
+  color: red !important;
+}
+.notification-panel .alert-info{
+  color: blue !important;
+}
+.notification-panel .alert-warning{
+  color: #c37a05 !important;
+}
+.notification-panel .alert-primary{
+  color: darkblue !important;
+}
+.alert button{
+  margin-left: 5px;
+}
+.clr{
+    clear: both;   
+    margin:10px;
+}
+
+.required-red {
+    background-color: red;
+    border-radius: 5px;
+    padding: 0px 0px 0px 3px !important;
+}
+
+.required-white {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0px 0px 0px 3px !important;
+}
+
+@media (max-width: 768px) {
+  .floot_top {
+    top: 10px;
+  }
+}
